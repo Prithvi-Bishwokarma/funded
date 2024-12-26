@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import WOW from "wow.js";
 import HomeTwo from "./pages/Home/HomeTwo";
 import About from "./pages/About/About";
+import AddOns from "./pages/AddOns/AddOns";
 import Rules from "./pages/Rules/Rules";
 import Disclaimer from "./pages/Disclaimer/Disclaimer";
 import RiskDisclosure from "./pages/RiskDisclosure/RiskDisclosure";
@@ -40,8 +41,7 @@ function App() {
         <Route path="disclaimer" element={<Disclaimer />} />
         <Route path="riskdisclosure" element={<RiskDisclosure />} />
         <Route path="termsconditions" element={<TermsConditions />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="blog-details" element={<BlogDetailsPage />} />
+        <Route path="addOns" element={<AddOns />} />
       </Routes>
     </>
   );

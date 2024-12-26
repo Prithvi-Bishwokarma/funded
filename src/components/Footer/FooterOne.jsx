@@ -24,7 +24,7 @@ const FooterOne = () => {
                   className="footer-widget wow fadeInUp"
                   data-wow-delay=".2s"
                 >
-                  <Link to="/" className="f-logo">
+                  <Link to="/funded" className="f-logo">
                     <img src={logoImage} alt="BigTech Logo" />
                   </Link>
                   <div className="footer-content">
@@ -70,16 +70,13 @@ const FooterOne = () => {
                         <Link to="/About">About</Link>
                       </li>
                       <li>
-                        <Link to="/">Product</Link>
-                      </li>
-                      <li>
                         <Link to="/Rules">Trading Rules</Link>
                       </li>
                       <li>
-                        <Link to="/">Add-Ons</Link>
+                        <Link to="/AddOns">AddOns</Link>
                       </li>
                       <li>
-                        <Link to="/">Contact</Link>
+                        <Link to="/ContactOne">Contact</Link>
                       </li>
                     </ul>
                   </div>
