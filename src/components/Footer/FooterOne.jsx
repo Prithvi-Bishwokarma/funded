@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logoImage from "../../../src/assets/img/logo/logo02.png";
+import logoImage from "../../../src/assets/img/logo/logo.png";
 import { scrollToTop } from "../../lib/helpers";
 
 const FooterOne = () => {
@@ -25,7 +25,7 @@ const FooterOne = () => {
                   data-wow-delay=".2s"
                 >
                   <Link to="/funded" className="f-logo">
-                    <img src={logoImage} alt="BigTech Logo" />
+                    <img src={logoImage} alt="Funded Logo" />
                   </Link>
                   <div className="footer-content">
                     <p>
@@ -35,23 +35,28 @@ const FooterOne = () => {
                     </p>
                     <ul className="footer-social">
                       <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/profile.php?id=61570844709574">
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/funded_vibe?fbclid=IwZXh0bgNhZW0CMTAAAR0rhcaKgii1jblE-qtOKWJlbTiXOmoHkFMw6MqTu8S-hjACgYVekWdG3Rk_aem_zSk0Nl4KHm4cGQ1fjUeXLg">
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://x.com/FundedVibes">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
                           <i className="fab fa-tiktok"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-youtube"></i>
                         </a>
                       </li>
                     </ul>

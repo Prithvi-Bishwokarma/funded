@@ -1,58 +1,56 @@
 import React from "react";
-import aboutImg from "../../assets/img/images/h2_about_img.png";
-import shape01 from "../../assets/img/images/about_shape01.png";
-import shape02 from "../../assets/img/images/about_shape02.png";
+import shape01 from "../../assets/img/images/faq_shape01.png";
 
 const Rules = () => {
   return (
-    <section id="about" className="about-area-two">
-      <div className="container custom-container-four">
-        <div className="row align-items-center">
-          <div className="col-lg-6">
-            <div
-              className="about-img-two text-center wow fadeInLeft"
-              data-wow-delay=".2s"
-            >
-              <img src={aboutImg} alt="" />
+    <section id="rules" className="about-area-two">
+      <div className="container">
+        <div className="rule-wrap">
+          <div className="about-content-two rules-left wow fadeInRight" data-wow-delay=".2s">
+            <div className="section-title section-title-two mb-15">
+              <h2 className="title">
+                Unlock More with Our Add-Ons
+              </h2>
+            </div>
+            <p>When you purchase our add-ons, the above trading rules no longer apply. Enjoy the freedom to:</p>
+            <div className="about-list">
+              <ul>
+                <li>
+                  <i class="fa fa-fire"></i>Trade during major news events.
+                </li>
+                <li>
+                  <i class="fa fa-fire"></i>Utilize your favorite Expert Advisors for automated trading.
+                </li>
+                <li>
+                  <i class="fa fa-fire"></i>Get access to our free leading trading tools.
+                </li>
+                <li>
+                  <i class="fa fa-fire"></i>Enjoy daily payouts.
+                </li>
+              </ul>
             </div>
           </div>
-          <div className="col-lg-6">
-            <div
-              className="about-content-two wow fadeInRight"
-              data-wow-delay=".2s"
-            >
-              <div className="section-title section-title-two mb-15">
-                <span className="sub-title">ABOUT Crypto ICO</span>
-                <h2 className="title">
-                  Bigtech Theme is the best for your ICO
-                </h2>
-              </div>
-              <p>
-                The World’s 1st ICO Platform That Offers Rewards and The
-                platform helps investors to make easy
-              </p>
-              <div className="about-list">
-                <ul>
-                  <li>
-                    <i className="fas fa-check"></i>Mouthwatering leading how
-                    real formula also
-                  </li>
-                  <li>
-                    <i className="fas fa-check"></i>Locked-in have can mountain
-                    thought
-                  </li>
-                </ul>
-              </div>
-
-              <a
-                href={aboutImg}
-                download
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-two"
-              >
-                Download Document
-              </a>
+          <div className="about-content-two rules-right wow fadeInRight" data-wow-delay=".2s">
+            <div className="section-title section-title-two mb-15">
+              <h2 className="title">
+                Trading Rules
+              </h2>
+            </div>
+            <div className="about-list">
+              <ul>
+                <li>
+                  <i class="fa fa-fire"></i>News Trading: Trading is not allowed 5 minutes before and after significant news events.
+                </li>
+                <li>
+                  <i class="fa fa-fire"></i>Expert Advisors (EAs): The use of automated trading systems or Expert Advisors is not permitted.
+                </li>
+                <li>
+                  <i class="fa fa-fire"></i>High-Frequency Trading (HFT): High-Frequency Trading strategies are strictly prohibited.
+                </li>
+                <li>
+                  <i class="fa fa-fire"></i>Minimum Trade Close Time: All trades must remain open for at least 90 seconds.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -60,7 +58,6 @@ const Rules = () => {
 
       <div className="about-shape-wrap">
         <img src={shape01} alt="" className="shape-one" />
-        <img src={shape02} alt="" className="shape-two rotateme" />
       </div>
     </section>
   );

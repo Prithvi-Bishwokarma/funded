@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import cn from "classnames";
-import logoImage from "../../../src/assets/img/logo/logo02.png";
+import logoImage from "../../../src/assets/img/logo/logo.png";
 import $ from "jquery";
 import { handleClickScroll } from "../../lib/helpers";
 
@@ -130,6 +130,17 @@ const HeaderOne = () => {
                           Product
                         </Link>
                       </li>
+
+                      <li className={isActiveLink("#rules")}>
+                        <Link
+                          to="#rules"
+                          className={"section-link"}
+                          onClick={() => handleClickScroll("rules")}
+                        >
+                          Rules
+                        </Link>
+                      </li>
+                      
                       <li className={isActiveLink("#faq")}>
                         <Link
                           to="#faq"
@@ -139,9 +150,7 @@ const HeaderOne = () => {
                           FAQ
                         </Link>
                       </li>
-                      <li className={"menu-item-has-children"}>
-                        <Link to="/rules">Rules</Link>
-                      </li>
+
                       <li className={isActiveLink("#contact")}>
                         <Link
                           to="#contact"

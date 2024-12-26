@@ -9,6 +9,7 @@ import TopPartners from "../../components/TopPartners/TopPartners";
 import WhitePaper from "../../components/WhitePaper/WhitePaper";
 import WhoWeAre from "../../components/WhoWeAre/WhoWeAre";
 import TradeUpTo from "../../components/TradeUpTo/TradeUpTo";
+import Rules from "../../components/Rules/Rules";
 import Faq from "../../components/Faq/Faq";
 import WhyChoose from "../../components/WhyChoose/WhyChoose";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
@@ -32,11 +33,17 @@ const Funded = () => {
         <WhyChooseUs />
 
         <NoTimeLimit />
-        
+
         <Sales />
+
+        <Rules />
+      
         <Faq />
+
         <WhyChoose />
+
         <ContactOne />
+        
         <TopPartners />
       </main>
     </LayoutOne>

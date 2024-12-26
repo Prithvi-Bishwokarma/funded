@@ -218,7 +218,7 @@ p {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.75;
-  font-weight: 100;
+  font-weight: 300;
   color: #727885;
   margin-bottom: 15px;
 }
@@ -297,6 +297,9 @@ label {
 /* button style */
 .btn.free-trail {
   background: #fff;
+  color: #222;
+}
+.btn.free-trail:hover {
   color: #222;
 }
 
@@ -435,17 +438,15 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .navbar-wrap {
   display: flex;
-  flex-grow: 1;
 }
 .navbar-wrap ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 140px;
 }
 .navbar-wrap > ul > li {
   display: block;
@@ -670,6 +671,13 @@ header {
   height: 105px;
 }
 
+/* rules */
+.rules-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
 /* header-two */
 .menu-area.menu-style-two {
   border-bottom: none;
@@ -744,7 +752,7 @@ header {
 }
 
 .menu-wrap .menu-nav img {
-  width: 160px;
+  width: 120px;
   object-fit: cover;
 }
 
@@ -1953,13 +1961,11 @@ header {
   padding: 30px 0 50px;
 }
 .chart-content-inner .btn {
-  background: linear-gradient(135deg, #3104ac, #6e02a0);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-clip: padding-box;
+  background: #fff;
+  color: #222;
 }
 .chart-content-inner .btn:hover {
-  color: #fff;
+  color: #222;
 }
 .chart-content-inner .btn::after {
   display: none;
@@ -3522,7 +3528,7 @@ td {
   display: block;
 }
 .footer-widget .f-logo img {
-  width: 170px;
+  width: 120px;
   height: 100%;
   object-fit: cover;
 }
