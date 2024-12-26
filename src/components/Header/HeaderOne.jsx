@@ -82,7 +82,7 @@ const HeaderOne = () => {
               <div className="menu-wrap">
                 <nav className={"menu-nav"}>
                   <div className="logo">
-                    <Link to={"/"}>
+                    <Link to={"/funded"}>
                       <img src={logoImage} alt="FundedVibe Logo" />
                     </Link>
                   </div>

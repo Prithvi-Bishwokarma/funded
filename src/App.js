@@ -33,7 +33,6 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="funded" element={<Funded />} />
         <Route path="/funded" element={<Funded />} />
         <Route path="home-two" element={<HomeTwo />} />
         <Route path="about" element={<About />} />
