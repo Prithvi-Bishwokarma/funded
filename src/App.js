@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import Funded from "./pages/Home/Funded";
 import { useEffect } from "react";
 import WOW from "wow.js";
 import HomeTwo from "./pages/Home/HomeTwo";
@@ -19,7 +19,7 @@ function App() {
       animateClass: "animated",
       offset: 0,
       mobile: false,
-      live: true,
+      live: false,
     });
     wow.init();
   }, []);
@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="funded" element={<Funded />} />
         <Route path="home-two" element={<HomeTwo />} />
         <Route path="about" element={<About />} />
         <Route path="rules" element={<Rules />} />

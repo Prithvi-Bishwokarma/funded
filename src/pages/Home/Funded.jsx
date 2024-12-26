@@ -14,7 +14,7 @@ import WhyChoose from "../../components/WhyChoose/WhyChoose";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import LayoutOne from "../../layouts/LayoutOne";
 
-const Home = () => {
+const Funded = () => {
   return (
     <LayoutOne>
       <main className="fix">
@@ -43,4 +43,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Funded;
