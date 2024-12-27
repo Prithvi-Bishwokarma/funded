@@ -4,7 +4,7 @@ import LayoutRiskDisclosure from "../../layouts/LayoutRiskDisclosure";
 
 const RiskDisclosure = () => {
   return (
-    <LayoutRiskDisclosure>
+    <LayoutRiskDisclosure pageTitle={"RiskDisclosure Detail"} item={"RiskDisclosure"}>
         <Banner />
         <RiskDisclosure />
     </LayoutRiskDisclosure>

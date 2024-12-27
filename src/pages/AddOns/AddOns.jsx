@@ -4,7 +4,7 @@ import LayoutAddOns from "../../layouts/LayoutAddOns";
 
 const AddOns = () => {
   return (
-    <LayoutAddOns>
+    <LayoutAddOns pageTitle={"AddOns Detail"} item={"AddOns"}>
         <Banner />
         <AddOns />
     </LayoutAddOns>

@@ -4,7 +4,7 @@ import LayoutTermsConditions from "../../layouts/LayoutTermsConditions";
 
 const TermsConditions = () => {
   return (
-    <LayoutTermsConditions>
+    <LayoutTermsConditions pageTitle={"TermsConditions Detail"} item={"TermsConditions"}>
         <Banner />
         <TermsConditions />
     </LayoutTermsConditions>

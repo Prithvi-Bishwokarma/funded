@@ -4,7 +4,7 @@ import LayoutDisclaimer from "../../layouts/LayoutsDisclaimer";
 
 const Disclaimer = () => {
   return (
-    <LayoutDisclaimer>
+    <LayoutDisclaimer pageTitle={"Disclaimer Detail"} item={"Disclaimer"}>
         <Banner />
         <Disclaimer />
     </LayoutDisclaimer>

@@ -1,9 +1,8 @@
 import React from "react";
-import shape01 from "../../assets/img/images/faq_shape01.png";
 
 const Rules = () => {
   return (
-    <section id="rules" className="about-area-two">
+    <section id="rules" className="rules">
       <div className="container">
         <div className="rule-wrap">
           <div className="about-content-two rules-left wow fadeInRight" data-wow-delay=".2s">
@@ -54,10 +53,6 @@ const Rules = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="about-shape-wrap">
-        <img src={shape01} alt="" className="shape-one" />
       </div>
     </section>
   );

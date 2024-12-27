@@ -12,7 +12,7 @@ const BlogBreadcrumb = (props) => {
               <nav aria-label="Breadcrumbs">
                 <ul className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <Link to="/blog">
+                    <Link to="/funded">
                       <span>Home</span>
                     </Link>
                   </li>

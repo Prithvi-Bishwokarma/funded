@@ -672,10 +672,22 @@ header {
 }
 
 /* rules */
-.rules-wrap {
+.rule-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;  
+  background: #fff;
+  border-radius: 10px;
+  padding: 60px;
+}
+
+.rules {
+  padding: 0 0 130px;
+}
+
+.rule-wrap .about-content-two .about-list ul li i {
+  color: #030b15;
+  line-height: 40px;
 }
 
 /* header-two */
@@ -1290,16 +1302,16 @@ header {
 
 /* 5. Breadcrumb */
 .breadcrumb-bg {
-  background-image: url(../img/bg/breadcrumb-bg.jpg);
+  background-image: url(../img/images/breadcrumb-bg.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
-  padding: 235px 0 150px;
+  padding: 150px 0 150px;
 }
 .breadcrumb-bg::before {
   position: absolute;
   content: "";
-  background-image: url(../img/bg/breadcrumb_shape.png);
+  background-image: url(../img/images/breadcrumb_shape.png);
   background-repeat: repeat;
   background-position: center;
   left: 0;
@@ -1315,6 +1327,7 @@ header {
   margin-bottom: 30px;
   letter-spacing: -0.01em;
   line-height: 1.15;
+  letter-spacing: 1.5px;
 }
 .breadcrumb-content .breadcrumb {
   display: flex;
@@ -1595,7 +1608,7 @@ header {
   transform: translateY(-50%);
   width: 10px;
   height: 10px;
-  background: #00c4f4;
+  background: #544de1;
   border-radius: 50%;
 }
 .section-title .sub-title::after {
@@ -1642,8 +1655,28 @@ header {
   opacity: 1;
 }
 
+/* disclaimer */
+.disclaimer {
+  background: #fff;
+}
+
+.disclaimer .about-content-two {
+  background: #030b15;
+  padding: 60px;
+  border-radius: 10px;
+}
+.disclaimer .about-content-two h2.title,
+.disclaimer .about-content-two h4,
+.disclaimer .about-content-two p {
+  color: #fff;
+}
+
+.disclaimer .about-content-two p {
+  width: 100%;
+}
 /* about-two */
 .about-area-two {
+  background: #fff;
   padding: 130px 0;
   position: relative;
 }
@@ -1660,11 +1693,17 @@ header {
 }
 .section-title.section-title-two .title {
   font-size: 45px;
-  color: #fff;
+  color: #030b15;
   line-height: 1.26;
 }
+
+.faq-area .section-title.section-title-two .title,
+.about-set .section-title-two h2.title,
+.about-set .about-content-two p {
+  color: #fff;
+}
 .about-content-two p {
-  color: #f9f9f9;
+  color: #030b15;
   margin-bottom: 20px;
   text-align: justify;
   width: 80%;
@@ -1674,7 +1713,7 @@ header {
 }
 .about-content-two .about-list ul li {
   align-items: baseline;  
-  color: #f9f9f9;
+  color: #030b15;
   font-weight: 100;
   margin-bottom: 10px;
 }
@@ -1740,6 +1779,7 @@ header {
 .about-set p,
 .about-set ul li {
   width: 85%;
+  color: #fff  !important;
 }
 
 .about-mission .section-title-two .title,

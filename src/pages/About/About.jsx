@@ -4,7 +4,7 @@ import LayoutAbout from "../../layouts/LayoutAbout";
 
 const About = () => {
   return (
-    <LayoutAbout>
+    <LayoutAbout pageTitle={"About Detail"} item={"About"}>
         <About />
         <NoTimeLimit />
     </LayoutAbout>

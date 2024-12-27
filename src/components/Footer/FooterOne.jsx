@@ -14,7 +14,7 @@ const FooterOne = () => {
               data-target="html"
               onClick={scrollToTop}
             >
-              <i className="fas fa-arrow-up"></i>
+            <i class="fa fa-chevron-up"></i>
             </button>
           </div>
           <div className="footer-top">
@@ -76,12 +76,6 @@ const FooterOne = () => {
                       </li>
                       <li>
                         <Link to="/Rules">Trading Rules</Link>
-                      </li>
-                      <li>
-                        <Link to="/AddOns">AddOns</Link>
-                      </li>
-                      <li>
-                        <Link to="/ContactOne">Contact</Link>
                       </li>
                     </ul>
                   </div>

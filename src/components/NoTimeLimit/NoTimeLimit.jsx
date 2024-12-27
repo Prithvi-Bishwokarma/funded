@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const NoTimeLimit = (props) => {
   return (
-    <section id="tradeup" className="tradeup-area notimelimit pt-130 pb-130">
+    <section id="tradeup" className="tradeup-area notimelimit pb-130">
       <div className="container">
         <div className="row align-items-center">
             <div className="col-lg-6">
